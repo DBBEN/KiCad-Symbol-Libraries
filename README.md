@@ -1,1 +1,1 @@
-# KiCad-Libraries
+# KiCad-Symbol-Libraries
