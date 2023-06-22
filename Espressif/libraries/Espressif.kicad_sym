@@ -5903,7 +5903,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-WROOM-E_0_0"
-      (text "ESP32-WROOM" (at 6.985 -5.08 0)
+      (text "ESP32-WROOM" (at 8.255 0 0)
         (effects (font (size 1.27 1.27)))
       )
     )
