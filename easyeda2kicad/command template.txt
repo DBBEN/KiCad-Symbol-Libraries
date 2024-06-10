@@ -1,0 +1,1 @@
+easyeda2kicad --full --lcsc_id=C411575 --output E:\Dave\Embedded\KiCad-Symbols-Repo\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad
