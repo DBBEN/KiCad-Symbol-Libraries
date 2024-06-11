@@ -1,0 +1,178 @@
+(footprint "CONN-TH_5P-P5.08_MX2EDGRC-5.08-GN01-05P-CU-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "ecfad5a4-d3e6-447c-9d21-b6958353195c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_5P-P5.08_MX2EDGRC-5.08-GN01-05P-CU-A"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "40897b23-4bfc-495c-ac92-c202f111b94d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "237684e4-60b5-431d-8c74-5d181fbf1c71")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9bbc247-ee8d-4913-b286-8d624bea164a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9f12117-9aa9-4cc3-80f7-fcde08ba104e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.45 -1.5)
+		(end -13.45 10.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d46fbeac-70f1-4a19-811b-e2a5bb5e1fe0")
+	)
+	(fp_line
+		(start -13.45 10.4)
+		(end 13.45 10.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6136ff3-6b62-45dd-aaff-f0aa7f0eb5c7")
+	)
+	(fp_line
+		(start 13.45 -1.5)
+		(end -13.45 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58807cf7-e01c-4f39-a6d2-63286295092d")
+	)
+	(fp_line
+		(start 13.45 10.4)
+		(end 13.45 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "890941a2-b038-491c-b130-defb51832baf")
+	)
+	(fp_circle
+		(center -13.44 10.4)
+		(end -13.41 10.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ea948025-f478-4bbd-8eb9-856b3f1a1a16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1ca0d3b7-beed-4178-a1d6-e15cdbcd8eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.16 0)
+		(size 2.4 2.4)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4eb88615-e6d8-4327-bd22-be5b20dcd56b")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 2.4 2.4)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dc8348b-9298-407e-ba06-5c541978a178")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93c705d9-85b8-4eac-a4da-ebb81635b789")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 0)
+		(size 2.4 2.4)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c62167cc-239b-4bdc-82c1-faebd2be2d92")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 2.4 2.4)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80c60e73-94f6-425f-9083-a2d688b160f1")
+	)
+	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_5P-P5.08_MX2EDGRC-5.08-GN01-05P-CU-A.wrl"
+		(offset
+			(xyz 0 1.55 4.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

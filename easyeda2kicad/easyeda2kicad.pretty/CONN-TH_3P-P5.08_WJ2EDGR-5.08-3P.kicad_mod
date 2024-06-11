@@ -1,0 +1,172 @@
+(footprint "CONN-TH_3P-P5.08_WJ2EDGR-5.08-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "00c9bfb3-51bd-4507-9960-c60628a5cf04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_3P-P5.08_WJ2EDGR-5.08-3P"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "93bf4abd-da8a-42b3-b25c-f85df0d1a54a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97e3e7c5-4bfb-49bc-9416-e2c5505c81fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a909b8b-f858-44c4-87e2-4707d5df6ca6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bb22325-7eab-4ef9-bd3d-0fa05a50abd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 7.4)
+		(end 7.62 7.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37c5472d-1d1c-4b2d-810e-3eb4449288eb")
+	)
+	(fp_line
+		(start -7.62 10.5)
+		(end -7.62 -1.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa689f63-5bff-4466-9cd3-72eec70d517a")
+	)
+	(fp_line
+		(start 7.62 -1.75)
+		(end -7.62 -1.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "579d6716-9367-49bb-bcf8-d26dd8cd40f0")
+	)
+	(fp_line
+		(start 7.62 -1.7)
+		(end 7.62 10.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4efbdc7-1dd4-4256-847e-db7d4d12e76f")
+	)
+	(fp_line
+		(start 7.62 10.5)
+		(end -7.62 10.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ea202d0-d9b0-4fbb-a287-e376dcf80725")
+	)
+	(fp_circle
+		(center -7.62 10.5)
+		(end -7.59 10.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bad24381-a914-43ae-965b-6b428cf72029")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f9c76268-202d-4407-bb53-0de6033f04f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5.08 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bd1d7b5-5710-40ce-8f4e-06246b89b3af")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb917698-1b1c-494f-9b92-9eded7e7a18e")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70d6bdb4-b524-4d9b-a076-3f8ba1cc66de")
+	)
+	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_WJ5.08-WI-3P.wrl"
+		(offset
+			(xyz -5 -0.87 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
