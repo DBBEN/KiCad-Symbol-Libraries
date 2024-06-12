@@ -1,33 +1,219 @@
-(module easyeda2kicad:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.68 0)
+		(layer "F.SilkS")
+		(uuid "cd9efdc3-d5d1-4c76-bab7-52d6215e44aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "8530ffda-0af5-4fb1-b24c-5a242e712217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fd1744c-c2dc-40ce-a3ed-8d3b402e53f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1f6f7c-b671-456d-ad93-a25949535bc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faf9a973-aa68-4b28-aaa3-ec617cb0596e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -6.68) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.58 -1.52)
+		(end 2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f6c7373-2570-4e79-a9a2-d9239ed6c787")
 	)
-	(fp_text value SOP-8_L4.9-W3.9-P1.27-LS6.0-BL (at 0 6.68) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -2.58 1.52)
+		(end -2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "087b7113-689f-4f93-95d6-4375c5949d06")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start 2.58 -1.52)
+		(end 2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23bf8f50-6edb-4fea-93ce-4452ada86936")
 	)
-	(fp_line (start -2.58 1.52) (end -2.58 -1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start -2.58 -1.52) (end 2.58 -1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start 2.58 -1.52) (end 2.58 1.52) (layer F.SilkS) (width 0.15))
-	(fp_line (start 2.58 1.52) (end -2.58 1.52) (layer F.SilkS) (width 0.15))
-	(pad 1 smd oval (at -1.91 2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd oval (at -0.63 2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 3 smd oval (at 0.63 2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 4 smd oval (at 1.90 2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 8 smd oval (at -1.91 -2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 7 smd oval (at -0.63 -2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 6 smd oval (at 0.63 -2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(pad 5 smd oval (at 1.90 -2.68 0.00) (size 0.63 1.86) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -2.45 3.00) (end -2.42 3.00) (layer F.Fab) (width 0.06))
-	(fp_circle (center -1.91 3.40) (end -1.76 3.40) (layer Cmts.User) (width 0.30))
-	(fp_circle (center -1.91 0.77) (end -1.76 0.77) (layer F.SilkS) (width 0.30))
-	(fp_circle (center -2.67 2.68) (end -2.52 2.68) (layer F.SilkS) (width 0.30))
-	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start 2.58 1.52)
+		(end -2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b46df57-2593-4290-b313-f977e9d2a858")
+	)
+	(fp_circle
+		(center -2.67 2.68)
+		(end -2.52 2.68)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "26cbc633-7394-45d1-8bd4-54653175555a")
+	)
+	(fp_circle
+		(center -1.91 0.77)
+		(end -1.76 0.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "999c10cf-c544-4123-aa8d-524cf576c13e")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.76 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "e939421c-6c66-4939-bf5c-db5f59995052")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "36977e46-3ffb-4ace-adeb-955042a3777b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3109de80-21f7-4251-bfaa-10c8abc7e239")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "925eae71-092b-46f3-b226-ea8ac3bd8d9f")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e234428-4308-4c9f-860c-a6ebd2b5e7d2")
+	)
+	(pad "3" smd oval
+		(at 0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c525909-da78-4f24-8afa-f8d7ba00e015")
+	)
+	(pad "4" smd oval
+		(at 1.9 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "13930b2b-0675-472f-a149-4d1cdf736280")
+	)
+	(pad "5" smd oval
+		(at 1.9 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a803ef1c-ebec-44ba-b460-cb403c8512bb")
+	)
+	(pad "6" smd oval
+		(at 0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6f9b5721-62b7-4c59-93e8-9668671fe057")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2aa001e-9d4e-4cc9-a6c3-9810126641eb")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "35151179-d132-4756-8447-bcea19c977cb")
+	)
+	(model "${EASYEDA2KICAD_3D}/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+		(offset
+			(xyz 0 -0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

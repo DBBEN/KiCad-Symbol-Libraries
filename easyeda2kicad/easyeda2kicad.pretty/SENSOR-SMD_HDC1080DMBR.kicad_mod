@@ -1,29 +1,182 @@
-(module easyeda2kicad:SENSOR-SMD_HDC1080DMBR (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "SENSOR-SMD_HDC1080DMBR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "39cd3196-a689-4a0f-a2a1-1d3806772c67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SENSOR-SMD_HDC1080DMBR"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "e0b221c8-44a0-4fe1-9b01-1f1219d36384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30439b78-dd4d-424a-a46f-e129f7914e05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c51ad3c-167a-4119-b170-2feb768de826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17395dc0-b7fc-4da3-8563-b4df4498db13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -5.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.58 -1.58)
+		(end 1.58 -1.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8f82b48-ef8c-4902-947f-2b787df1c5c6")
 	)
-	(fp_text value SENSOR-SMD_HDC1080DMBR (at 0 5.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.58 1.58)
+		(end 1.58 1.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c17e9795-70ec-4ba8-a3c3-f738268f586d")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_circle
+		(center -2.32 -1)
+		(end -2.22 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bd2f5a0c-4c53-4dec-8871-216701c7c843")
 	)
-	(fp_line (start -1.58 -1.58) (end 1.58 -1.58) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.58 1.58) (end 1.58 1.58) (layer F.SilkS) (width 0.15))
-	(pad 1 smd oval (at -1.55 -1.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd oval (at -1.55 0.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 3 smd oval (at -1.55 1.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 4 smd oval (at 1.55 1.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 5 smd oval (at 1.55 0.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 6 smd oval (at 1.55 -1.00 0.00) (size 0.95 0.56) (layers F.Cu F.Paste F.Mask))
-	(pad 7 smd rect (at -0.00 0.00 0.00) (size 1.50 2.40) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -1.50 -1.50) (end -1.47 -1.50) (layer F.Fab) (width 0.06))
-	(fp_circle (center -1.80 -1.00) (end -1.70 -1.00) (layer Cmts.User) (width 0.20))
-	(fp_circle (center -2.32 -1.00) (end -2.22 -1.00) (layer F.SilkS) (width 0.20))
-	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/SENSOR-SMD_L3.0-W3.0-H0.8-P1.0.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_circle
+		(center -1.8 -1)
+		(end -1.7 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "4ac1ccbf-d36b-4555-a64d-3f115a05fc07")
+	)
+	(fp_circle
+		(center -1.5 -1.5)
+		(end -1.47 -1.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4aeed4a9-a877-45a0-b7fe-8e52b08814ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e8521c4d-f426-4337-86f0-2715f346556f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.55 -1)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e94965d-42e5-415f-a13a-feb02856501e")
+	)
+	(pad "2" smd oval
+		(at -1.55 0)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f92290a-b4ed-4a4d-a381-c157495d6eed")
+	)
+	(pad "3" smd oval
+		(at -1.55 1)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a19cafe5-7bc1-428a-ae3c-1e800521e73e")
+	)
+	(pad "4" smd oval
+		(at 1.55 1)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5ae1f969-0400-46ba-b609-d5a3f3260f06")
+	)
+	(pad "5" smd oval
+		(at 1.55 0)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e4857c5c-d8d5-44b0-9246-d4cfc4232870")
+	)
+	(pad "6" smd oval
+		(at 1.55 -1)
+		(size 0.95 0.56)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c1b9a555-291a-4f47-b198-05e3659be16e")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.5 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d13a1af-cc87-479a-ba74-9aaa39780299")
+	)
+	(model "${EASYEDA2KICAD_3D}/SENSOR-SMD_L3.0-W3.0-H0.8-P1.0.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

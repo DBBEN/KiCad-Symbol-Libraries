@@ -162,7 +162,7 @@
 		(remove_unused_layers no)
 		(uuid "7c3cca18-84f8-475f-a0ba-cbdfbe11c4c5")
 	)
-	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_WJ2EDGR-5.08-2P.wrl"
+	(model "${EASYEDA2KICAD_3D}/CONN-TH_WJ2EDGR-5.08-2P.wrl"
 		(offset
 			(xyz 0 -4.4 4)
 		)

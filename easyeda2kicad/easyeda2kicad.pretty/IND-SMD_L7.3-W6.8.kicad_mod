@@ -1,26 +1,170 @@
-(module easyeda2kicad:IND-SMD_L7.3-W6.8 (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "IND-SMD_L7.3-W6.8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "0da03f18-cd47-4e99-9138-fcc2e4b7044b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L7.3-W6.8"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "699b7219-8c06-4f4a-88b9-48af9af0ccad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a9ceea-c20e-415c-b769-caa51cdfc550")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cfd827e-cce1-498b-b55d-ff3397302ee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7afac82a-afa3-405c-b6fd-6e17bf34041c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.5 -3.3)
+		(end -3.5 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ffb9ab7-282b-497e-994e-215391dac32d")
 	)
-	(fp_text value IND-SMD_L7.3-W6.8 (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.5 -3.3)
+		(end 3.5 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f219b3a2-d930-4fe2-89c5-854763d67692")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -3.5 2)
+		(end -3.5 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16f28942-3df0-463c-8c10-efb05051bd31")
 	)
-	(fp_line (start 3.50 -3.30) (end 3.50 -2.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.50 -3.30) (end -3.50 -2.00) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.50 -3.30) (end 3.50 -3.30) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.50 3.30) (end 3.50 3.30) (layer F.SilkS) (width 0.25))
-	(fp_line (start -3.50 2.00) (end -3.50 3.30) (layer F.SilkS) (width 0.25))
-	(fp_line (start 3.50 2.00) (end 3.50 3.30) (layer F.SilkS) (width 0.25))
-	(pad 2 smd rect (at 3.00 0.00 0.00) (size 2.35 3.50) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at -3.00 0.00 0.00) (size 2.35 3.50) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center 3.62 3.40) (end 3.65 3.40) (layer F.Fab) (width 0.06))
-	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/IND-SMD_L7.3-W6.8-H3.0.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start -3.5 3.3)
+		(end 3.5 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc5f4484-f008-4559-8d67-faba46703a7a")
+	)
+	(fp_line
+		(start 3.5 -3.3)
+		(end 3.5 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc198539-2046-400e-b75b-af354449ac23")
+	)
+	(fp_line
+		(start 3.5 2)
+		(end 3.5 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368e8c16-a4d8-4563-830c-034bed705d4e")
+	)
+	(fp_circle
+		(center 3.62 3.4)
+		(end 3.65 3.4)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "26388a6a-01f7-4cc0-86f0-51c61764b454")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3ecb3100-391d-4ef7-86b7-9b08aac8b855")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b337df16-4713-472c-89ff-e6e93064abf7")
+	)
+	(pad "2" smd rect
+		(at 3 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dcfc7e44-0df5-4da9-8553-f4627bf15e98")
+	)
+	(model "${EASYEDA2KICAD_3D}/IND-SMD_L7.3-W6.8-H3.0.wrl"
+		(offset
+			(xyz 0 -0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
