@@ -1,28 +1,188 @@
-(module easyeda2kicad:CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "239e3049-f4a9-4eda-ae09-99f1a820fd8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "2f72fe6c-a21a-4821-8754-982dbc2d3677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50b5b732-f542-4218-97a5-97c08d42066e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b58cfaff-495c-4eef-99b3-08d42a203aed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cd2d448-cf3e-44ce-8e69-039e02a29161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -12.7 -3.71)
+		(end 12.7 -3.71)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72b45425-5821-40b9-9a99-ca03743a66b0")
 	)
-	(fp_text value CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -12.7 4.12)
+		(end 12.7 4.12)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "941f339c-24e7-4ea8-b570-bd770035e220")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -12.7 4.59)
+		(end -12.7 -3.71)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a3b88ac-418d-4de3-876d-b5c882b36a11")
 	)
-	(fp_line (start -12.70 4.59) (end 12.70 4.59) (layer F.SilkS) (width 0.25))
-	(fp_line (start -12.70 -3.71) (end 12.70 -3.71) (layer F.SilkS) (width 0.25))
-	(fp_line (start 12.70 -3.71) (end 12.70 4.59) (layer F.SilkS) (width 0.25))
-	(fp_line (start -12.70 4.59) (end -12.70 -3.71) (layer F.SilkS) (width 0.25))
-	(fp_line (start -12.70 4.12) (end 12.70 4.12) (layer F.SilkS) (width 0.25))
-	(pad 1 thru_hole rect (at -10.16 0.00 0.00) (size 3.00 3.00) (layers *.Cu *.Mask)(drill 1.7000219999999997))
-	(pad 2 thru_hole circle (at -5.08 0.00 0.00) (size 3.00 3.00) (layers *.Cu *.Mask)(drill 1.7000219999999997))
-	(pad 3 thru_hole circle (at 0.00 0.00 0.00) (size 3.00 3.00) (layers *.Cu *.Mask)(drill 1.7000219999999997))
-	(pad 4 thru_hole circle (at 5.08 0.00 0.00) (size 3.00 3.00) (layers *.Cu *.Mask)(drill 1.7000219999999997))
-	(pad 5 thru_hole circle (at 10.16 0.00 0.00) (size 3.00 3.00) (layers *.Cu *.Mask)(drill 1.7000219999999997))
-	(fp_circle (center -12.70 4.05) (end -12.67 4.05) (layer F.Fab) (width 0.06))
-	(model "E:/Dave/Embedded/KiCad-Symbols-Repo/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P.wrl"
-		(offset (xyz 0.000 -0.440 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start -12.7 4.59)
+		(end 12.7 4.59)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e01bd06d-5bbf-4e29-b916-f09da4b67c3b")
+	)
+	(fp_line
+		(start 12.7 -3.71)
+		(end 12.7 4.59)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba2cf089-1c1b-4bcb-9d18-e2824c48b30d")
+	)
+	(fp_circle
+		(center -12.7 4.05)
+		(end -12.67 4.05)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2cd76547-b371-429e-9662-6fa947d7bd87")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ebae8c70-5e61-47d9-89bf-47434a42431c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -10.16 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe6c13af-9035-4002-9d72-7c966c97b054")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7947549a-5959-4ae4-a92e-7cf7748fe81b")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4bf9fbe-2153-4477-92aa-f240fd04b9ac")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f40afc85-0fda-4d0f-8811-13868b61f2df")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 3 3)
+		(drill 1.700022)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0550556c-5397-424c-aace-9d5340cf4006")
+	)
+	(model "${EASYEDA2KICAD_3D}/CONN-TH_5P-P5.08_WJ2EDGV-5.08-5P.wrl"
+		(offset
+			(xyz 0 -0.44 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
