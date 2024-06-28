@@ -14304,7 +14304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom Library:MAX485 Module"
 			(at 0 0 0)
 			(effects
 				(font

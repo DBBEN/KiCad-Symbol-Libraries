@@ -4282,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom Footprints:Neo-6M_GPS_Module"
+		(property "Footprint" "Custom Library:ATGM336H GPS Module"
 			(at 0 0 0)
 			(effects
 				(font
