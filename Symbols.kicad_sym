@@ -13481,7 +13481,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at -6.35 10.16 0)
+			(at -5.842 11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +13489,7 @@
 			)
 		)
 		(property "Value" "L298N_Module"
-			(at 8.89 -8.89 0)
+			(at 11.938 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,8 +13525,8 @@
 		)
 		(symbol "L298N_Module_0_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -6.35)
+				(start -7.62 10.16)
+				(end 12.7 -6.35)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -13538,9 +13538,9 @@
 		)
 		(symbol "L298N_Module_1_1"
 			(pin input line
-				(at 0 -8.89 90)
+				(at 15.24 5.08 180)
 				(length 2.54)
-				(name "GND"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13556,7 +13556,97 @@
 				)
 			)
 			(pin input line
-				(at 0 11.43 270)
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "OUT3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "OUT4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 2.54 180)
+				(length 2.54)
+				(name "OUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 12.7 270)
+				(length 2.54)
+				(name "12V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -13565,7 +13655,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13583,7 +13673,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13601,7 +13691,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13619,7 +13709,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13637,7 +13727,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
