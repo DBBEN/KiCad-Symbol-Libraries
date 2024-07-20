@@ -1,33 +1,242 @@
-(module easyeda2kicad:CONN-TH_3P-P3.96_FWF39601-S03S22W1B (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CONN-TH_3P-P3.96_FWF39601-S03S22W1B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "5ceffb26-e826-4fd2-a929-d33abc847d1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_3P-P3.96_FWF39601-S03S22W1B"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "80959c17-e30c-4e17-be07-ef0cbe48ed88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0a38a6-5518-4866-8f7f-ed776579bfbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6ffdc6a-7bf6-47d2-b88c-9673bb0b1439")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08191cf-2a72-4b68-84e7-96de7394f81b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -5.98 4.54)
+		(end -5.98 -2.16)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90eecbd4-c17e-460f-b29f-398a196e686d")
 	)
-	(fp_text value CONN-TH_3P-P3.96_FWF39601-S03S22W1B (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.98 -3.72)
+		(end 1.02 -3.72)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97bdd44f-4cc4-464f-a030-750e60233c84")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -4.98 -3.27)
+		(end 1.02 -3.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae53b533-f5e7-4771-8406-d30aa26b4f9f")
 	)
-	(fp_line (start 5.98 4.54) (end -5.98 4.54) (layer F.SilkS) (width 0.25))
-	(fp_line (start -5.98 4.54) (end -5.98 -2.16) (layer F.SilkS) (width 0.25))
-	(fp_line (start 5.98 4.54) (end 5.98 -2.16) (layer F.SilkS) (width 0.25))
-	(fp_line (start 5.98 -2.16) (end -5.98 -2.16) (layer F.SilkS) (width 0.25))
-	(fp_line (start 4.98 -2.16) (end 4.98 -3.72) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.98 -2.16) (end -4.98 -3.72) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.98 -3.72) (end 1.02 -3.72) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.98 -3.27) (end 1.02 -3.27) (layer F.SilkS) (width 0.25))
-	(fp_line (start -4.98 -2.80) (end 1.02 -2.80) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.02 -3.72) (end 4.98 -3.72) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.02 -3.27) (end 4.98 -3.27) (layer F.SilkS) (width 0.25))
-	(fp_line (start 1.02 -2.80) (end 4.98 -2.80) (layer F.SilkS) (width 0.25))
-	(pad 2 thru_hole circle (at 0.00 0.00 180.00) (size 2.60 2.60) (layers *.Cu *.Mask)(drill 1.7999964))
-	(pad 1 thru_hole rect (at -3.96 0.00 180.00) (size 2.80 2.60) (layers *.Cu *.Mask)(drill 1.7999964))
-	(pad 3 thru_hole circle (at 3.96 0.00 180.00) (size 2.60 2.60) (layers *.Cu *.Mask)(drill 1.7999964))
-	(fp_circle (center -6.11 4.60) (end -6.08 4.60) (layer F.Fab) (width 0.06))
+	(fp_line
+		(start -4.98 -2.8)
+		(end 1.02 -2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "202862bf-6bb0-4f7e-830a-5acfc91d87b1")
+	)
+	(fp_line
+		(start -4.98 -2.16)
+		(end -4.98 -3.72)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6baff218-c70b-4571-8833-5e0c8a90c1aa")
+	)
+	(fp_line
+		(start 1.02 -3.72)
+		(end 4.98 -3.72)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "430c7e13-dc3d-491a-be74-ddb28fea9f5a")
+	)
+	(fp_line
+		(start 1.02 -3.27)
+		(end 4.98 -3.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2390458e-2035-444c-80c9-80740a062b49")
+	)
+	(fp_line
+		(start 1.02 -2.8)
+		(end 4.98 -2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6c3e7a8-2e8c-4dbe-bb06-6653b2cefde1")
+	)
+	(fp_line
+		(start 4.98 -2.16)
+		(end 4.98 -3.72)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3ad7fc3-48da-44fd-9b34-407ef24675e0")
+	)
+	(fp_line
+		(start 5.98 -2.16)
+		(end -5.98 -2.16)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f6adfcf-b05d-4adf-9b58-4e51ba81d9c1")
+	)
+	(fp_line
+		(start 5.98 4.54)
+		(end -5.98 4.54)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac07121f-e594-4a43-bfb1-085254a69f23")
+	)
+	(fp_line
+		(start 5.98 4.54)
+		(end 5.98 -2.16)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "193e35cb-568c-4938-be09-40ec55752154")
+	)
+	(fp_circle
+		(center -6.11 4.6)
+		(end -6.08 4.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "532dcfff-c838-4645-9026-b9ce78385507")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ad07598a-45f9-439d-8563-036bc9edf4a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.96 0 180)
+		(size 2.8 2.6)
+		(drill 1.799996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96cea4eb-93a0-450d-8922-f9d2a4f58a1b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 180)
+		(size 2.6 2.6)
+		(drill 1.799996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e641b0d-9e77-4e9a-a14b-3b3872d8b110")
+	)
+	(pad "3" thru_hole circle
+		(at 3.96 0 180)
+		(size 2.6 2.6)
+		(drill 1.799996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c76415e-5f4e-4ffb-b9ce-9023740280ef")
+	)
 	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_3P-P3.96_FWF39601-S03S22W1B.wrl"
-		(offset (xyz 0.000 -0.410 0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 -1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
