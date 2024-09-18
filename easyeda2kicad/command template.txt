@@ -5,3 +5,5 @@ easyeda2kicad --full --lcsc_id=C411575 --output E:\Dave\Embedded\KiCad-Symbols-R
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad
 
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu
+
+easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
