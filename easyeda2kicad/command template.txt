@@ -7,3 +7,5 @@ easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu
 
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
+
+easyeda2kicad --full --lcsc_id=C3041164 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
