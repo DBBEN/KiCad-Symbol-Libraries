@@ -8,7 +8,7 @@ easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad
 
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
 
-easyeda2kicad --full --lcsc_id=C2683357 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
+easyeda2kicad --full --lcsc_id=C386758 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
 
 easyeda2kicad --full --lcsc_id=C2980721 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-wireless
 
