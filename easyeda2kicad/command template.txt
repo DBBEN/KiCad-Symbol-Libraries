@@ -4,15 +4,21 @@ easyeda2kicad --full --lcsc_id=C411575 --output E:\Dave\Embedded\KiCad-Symbols-R
 (Lenovo Okutama Laptop)
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad
 
+MCU
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu
 
+INTERFACE
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
 
-easyeda2kicad --full --lcsc_id=C386758 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
+CONNECTORS
+easyeda2kicad --full --lcsc_id=C2764258 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
 
+WIRELESS
 easyeda2kicad --full --lcsc_id=C2980721 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-wireless
 
+SWITCHES
 easyeda2kicad --full --lcsc_id=C99421 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-switches
 
+DISPLAYS
 easyeda2kicad --full --lcsc_id=C7465997 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-displays
 
