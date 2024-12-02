@@ -11802,7 +11802,7 @@
 		)
 		(symbol "ESP32_Module-30_0_1"
 			(rectangle
-				(start -15.24 27.305)
+				(start -15.24 26.67)
 				(end 12.7 -24.13)
 				(stroke
 					(width 0.1524)
@@ -11923,7 +11923,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 32.385 270)
+				(at -3.81 31.75 270)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -11941,7 +11941,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 32.385 270)
+				(at 2.54 31.75 270)
 				(length 5.08)
 				(name "3.3V"
 					(effects
@@ -13354,6 +13354,196 @@
 			)
 		)
 	)
+	(symbol "HALL_SENSOR_MODULE"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HALL SENSOR MODULE"
+			(at 12.954 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HALL_SENSOR_MODULE_0_1"
+			(rectangle
+				(start -10.16 -1.27)
+				(end -6.985 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "HALL_SENSOR_MODULE_1_1"
+			(rectangle
+				(start -12.065 3.81)
+				(end -1.27 -13.97)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -5.08) (xy -10.16 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -5.08) (xy -10.16 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 -5.08) (xy -6.985 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "N\n\nS"
+				(at -8.636 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -3.81 180)
+				(length 2.54)
+				(name "AO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -16.51 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 6.35 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -6.35 180)
+				(length 2.54)
+				(name "DO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "HC-05_Bluetooth"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13784,6 +13974,247 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HX711_MODULE"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "M"
+			(at 0 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX711 MODULE"
+			(at 15.494 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HX711_MODULE_1_1"
+			(rectangle
+				(start -1.27 5.08)
+				(end 11.43 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 5.08 7.62 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -6.35 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -17.78 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "E+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -1.27 0)
+				(length 2.54)
+				(name "E-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -3.81 0)
+				(length 2.54)
+				(name "A-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -6.35 0)
+				(length 2.54)
+				(name "A+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -8.89 0)
+				(length 2.54)
+				(name "B-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 -11.43 0)
+				(length 2.54)
+				(name "B+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "DT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15520,15 +15951,15 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "L"
-			(at -12.065 12.065 0)
+		(property "Reference" "LC"
+			(at -4.064 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Load Cell"
+		(property "Value" "LOAD CELL"
 			(at 0.635 -12.065 0)
 			(effects
 				(font
@@ -15565,8 +15996,8 @@
 		)
 		(symbol "Load Cell_0_1"
 			(rectangle
-				(start -12.7 10.795)
-				(end 5.715 -10.16)
+				(start -5.08 10.795)
+				(end 6.35 -10.16)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -15575,25 +16006,22 @@
 					(type background)
 				)
 			)
-			(rectangle
-				(start -10.795 7.62)
-				(end 1.27 -6.35)
+			(circle
+				(center -1.27 -6.985)
+				(radius 1.905)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -9.525 -6.35) (xy -9.525 6.35) (xy -8.255 6.35) (xy -8.255 -5.715) (xy -6.985 -5.715) (xy -6.985 6.35)
-					(xy -5.715 6.35) (xy -5.715 -5.715) (xy -4.445 -5.715) (xy -4.445 6.35) (xy -3.175 6.35) (xy -3.175 -5.715)
-					(xy -1.905 -5.715) (xy -1.905 6.35) (xy -0.635 6.35) (xy -0.635 -5.715) (xy 0.635 -5.715) (xy 0.635 7.62)
-				)
+			(circle
+				(center -1.27 7.62)
+				(radius 1.905)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -15603,7 +16031,7 @@
 		)
 		(symbol "Load Cell_1_1"
 			(pin input line
-				(at 8.255 -0.635 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "A+"
 					(effects
@@ -15621,7 +16049,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 1.905 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "A-"
 					(effects
@@ -15639,7 +16067,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 -5.715 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "B+"
 					(effects
@@ -15657,7 +16085,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 -3.175 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "B-"
 					(effects
@@ -15675,7 +16103,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 6.985 180)
+				(at 8.89 6.35 180)
 				(length 2.54)
 				(name "E+"
 					(effects
@@ -15693,7 +16121,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 4.445 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "E-"
 					(effects
