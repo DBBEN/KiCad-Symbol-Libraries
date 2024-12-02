@@ -1,0 +1,230 @@
+(footprint "SW-SMD_TS24CA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.77 0)
+		(layer "F.SilkS")
+		(uuid "2e00137d-1dcf-425a-a947-78549603c62f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_TS24CA"
+		(at 0 4.77 0)
+		(layer "F.Fab")
+		(uuid "d0ab96ff-eabb-4b03-ba88-1790baf339a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f4eb4d3-1b65-475f-83c0-e9724397739d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "536d073d-aea2-492c-866f-bde6ab993edc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "835b4c0e-c5ef-40a2-a011-9fd6e8a86a0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 -1.67)
+		(end 2.3 -1.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e1814bc-51e9-4f57-b165-bbecfa825636")
+	)
+	(fp_line
+		(start -2.3 -1.53)
+		(end -2.3 -1.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aca486a8-80da-4258-9fa6-df00bb73f286")
+	)
+	(fp_line
+		(start -1 -2.87)
+		(end -1 -1.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bbbb24b-5fdc-4647-a65e-8f78c34d260b")
+	)
+	(fp_line
+		(start -1 -2.87)
+		(end 1 -2.87)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf6aba67-efc1-4ed1-94ff-a371a6b270d3")
+	)
+	(fp_line
+		(start -0.89 0.63)
+		(end 0.89 0.63)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78b8d037-364b-4a69-a84e-590ac94f1b87")
+	)
+	(fp_line
+		(start 1 -2.87)
+		(end 1 -1.67)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e353aae8-e166-4f18-95d0-a6a9450396f9")
+	)
+	(fp_line
+		(start 2.3 -1.67)
+		(end 2.3 -1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e99b20ae-683c-464f-bec2-e8877aac7ef2")
+	)
+	(fp_circle
+		(center -0.85 -0.77)
+		(end -0.73 -0.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "b6049034-a465-40af-a3af-552d79b9f8f4")
+	)
+	(fp_circle
+		(center 0.85 -0.77)
+		(end 0.97 -0.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "8935fce9-5b35-4c61-8425-a83825393b93")
+	)
+	(fp_circle
+		(center -2.28 -3)
+		(end -2.25 -3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "579fd2e8-6fc3-4b2e-a78c-3486ecd93e50")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "71dee86d-3bf6-4287-9d1d-cab30e380b8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -0.85 -0.77)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3062877f-468e-4b68-a3f5-58f471576049")
+	)
+	(pad "" thru_hole circle
+		(at 0.85 -0.77)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6943b65b-21d4-4ebb-9b73-e1a35f73b703")
+	)
+	(pad "1" smd rect
+		(at -2.3 -0.77)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "686f5b78-eeb1-4738-979f-f694b0e72591")
+	)
+	(pad "2" smd rect
+		(at 2.3 -0.77 180)
+		(size 0.9 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ea22206-776e-49de-b408-e93fb30807bd")
+	)
+	(pad "3" smd rect
+		(at -1.67 0.77 180)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "950086f9-8e26-44ae-87d8-7ba560c17580")
+	)
+	(pad "4" smd rect
+		(at 1.68 0.77 180)
+		(size 1.2 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "99c4aab9-7f72-41eb-a0c0-f75a02562404")
+	)
+	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad-switches.3dshapes/SW-SMD_TS24CA.wrl"
+		(offset
+			(xyz 0 1.13 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
