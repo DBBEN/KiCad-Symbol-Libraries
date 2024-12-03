@@ -22,3 +22,5 @@ easyeda2kicad --full --lcsc_id=C393942 --output C:\Users\Sally\Documents\KiCad\K
 DISPLAYS
 easyeda2kicad --full --lcsc_id=C5372847 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-displays --overwrite
 
+LEDS
+easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds --overwrite
