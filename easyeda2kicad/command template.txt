@@ -24,3 +24,6 @@ easyeda2kicad --full --lcsc_id=C5372847 --output C:\Users\Sally\Documents\KiCad\
 
 LEDS
 easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds --overwrite
+
+PROTECTION
+easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
