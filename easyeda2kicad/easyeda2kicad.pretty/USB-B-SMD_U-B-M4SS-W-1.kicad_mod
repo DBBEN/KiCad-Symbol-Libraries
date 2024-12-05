@@ -280,7 +280,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "71a0c4e5-31be-401c-8069-df5aca9c333b")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/USB-B-SMD_U-B-M4SS-W-1.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-B-SMD_U-B-M4SS-W-1.wrl"
 		(offset
 			(xyz 0 -4.2 11)
 		)

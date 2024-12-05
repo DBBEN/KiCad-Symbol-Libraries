@@ -272,7 +272,7 @@
 		(remove_unused_layers no)
 		(uuid "4db379d2-40e0-4dbf-a55e-738835c8994e")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad-connectors.3dshapes/CONN-TH_XY301V-A-5.0-2P.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad-connectors.3dshapes/CONN-TH_XY301V-A-5.0-2P.wrl"
 		(offset
 			(xyz -0.05 0.3 5)
 		)

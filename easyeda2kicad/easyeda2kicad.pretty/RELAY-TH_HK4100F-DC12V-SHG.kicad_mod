@@ -238,7 +238,7 @@
 		(remove_unused_layers no)
 		(uuid "40ea4204-cde1-49d2-9c3e-a4ed84b6aef6")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/RELAY-TH_HK4100F-L15.5-W10.5-H11.8.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/RELAY-TH_HK4100F-L15.5-W10.5-H11.8.wrl"
 		(offset
 			(xyz 6.4 3.8 0)
 		)

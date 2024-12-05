@@ -370,7 +370,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "280ec5e3-c186-4e4b-a399-d4642555b304")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/CONN-SMD_12P-P2.00_HDGC_2.0-B-12PB.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_12P-P2.00_HDGC_2.0-B-12PB.wrl"
 		(offset
 			(xyz -16 -2.7 -11)
 		)

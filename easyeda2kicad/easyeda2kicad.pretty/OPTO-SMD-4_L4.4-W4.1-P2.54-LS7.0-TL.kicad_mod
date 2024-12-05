@@ -181,7 +181,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a67faa86-793c-4a88-b1df-57b383706436")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad.3dshapes/OPTO-SMD-4P_L4.1-W4.4-H2.0-LS7.0-P2.54.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/OPTO-SMD-4P_L4.1-W4.4-H2.0-LS7.0-P2.54.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
