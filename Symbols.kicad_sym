@@ -12013,7 +12013,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 13.335 0)
+				(at -20.32 13.97 0)
 				(length 5.08)
 				(name "SP(IO36)"
 					(effects
@@ -12211,7 +12211,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 10.795 0)
+				(at -20.32 11.43 0)
 				(length 5.08)
 				(name "SN(IO39)"
 					(effects
@@ -15295,8 +15295,8 @@
 		)
 		(symbol "Infrared_Module_0_1"
 			(rectangle
-				(start -8.255 5.715)
-				(end 5.715 -6.985)
+				(start -8.89 6.35)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -15306,8 +15306,8 @@
 				)
 			)
 			(rectangle
-				(start -5.715 3.175)
-				(end -1.905 -4.445)
+				(start -6.35 3.81)
+				(end -2.54 -3.81)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -15317,7 +15317,7 @@
 				)
 			)
 			(circle
-				(center -3.81 -2.54)
+				(center -4.445 -1.905)
 				(radius 1.27)
 				(stroke
 					(width 0.1524)
@@ -15328,7 +15328,7 @@
 				)
 			)
 			(circle
-				(center -3.81 1.27)
+				(center -4.445 1.905)
 				(radius 1.27)
 				(stroke
 					(width 0.1524)
@@ -15341,7 +15341,7 @@
 		)
 		(symbol "Infrared_Module_1_1"
 			(pin input line
-				(at 8.255 3.175 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -15359,7 +15359,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 -4.445 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -15377,7 +15377,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 0.635 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
 				(name "DO"
 					(effects
@@ -15395,7 +15395,7 @@
 				)
 			)
 			(pin input line
-				(at 8.255 -1.905 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "AO"
 					(effects
