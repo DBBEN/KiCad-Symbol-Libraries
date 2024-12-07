@@ -27,3 +27,8 @@ easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\K
 
 PROTECTION
 easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
+
+MOTOR DRIVER
+
+(Work PC Path)
+easyeda2kicad --full --lcsc_id=C81582 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
