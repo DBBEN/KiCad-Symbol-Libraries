@@ -3055,24 +3055,6 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "LV4"
@@ -3119,6 +3101,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13748,9 +13748,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -3.81 180)
+				(at -5.08 6.35 270)
 				(length 2.54)
-				(name "AO"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13758,6 +13758,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 -6.35 180)
+				(length 2.54)
+				(name "DO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13775,24 +13793,6 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 6.35 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "3"
 					(effects
 						(font
@@ -13802,9 +13802,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -6.35 180)
+				(at 1.27 -3.81 180)
 				(length 2.54)
-				(name "DO"
+				(name "AO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14338,6 +14338,42 @@
 				)
 			)
 			(pin input line
+				(at -3.81 -11.43 0)
+				(length 2.54)
+				(name "B+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "DT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 13.97 -6.35 180)
 				(length 2.54)
 				(name "SCK"
@@ -14347,7 +14383,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14365,7 +14401,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14383,7 +14419,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14401,7 +14437,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14419,7 +14455,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14437,7 +14473,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14449,42 +14485,6 @@
 				(at -3.81 -8.89 0)
 				(length 2.54)
 				(name "B-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -3.81 -11.43 0)
-				(length 2.54)
-				(name "B+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 13.97 -3.81 180)
-				(length 2.54)
-				(name "DT"
 					(effects
 						(font
 							(size 1.27 1.27)

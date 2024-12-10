@@ -3055,24 +3055,6 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 8.89 -5.08 180)
 				(length 2.54)
 				(name "LV4"
@@ -3119,6 +3101,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13748,9 +13748,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -3.81 180)
+				(at -5.08 6.35 270)
 				(length 2.54)
-				(name "AO"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13784,9 +13784,9 @@
 				)
 			)
 			(pin input line
-				(at -5.08 6.35 270)
+				(at 1.27 -6.35 180)
 				(length 2.54)
-				(name "VCC"
+				(name "DO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13802,9 +13802,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -6.35 180)
+				(at 1.27 -3.81 180)
 				(length 2.54)
-				(name "DO"
+				(name "AO"
 					(effects
 						(font
 							(size 1.27 1.27)
