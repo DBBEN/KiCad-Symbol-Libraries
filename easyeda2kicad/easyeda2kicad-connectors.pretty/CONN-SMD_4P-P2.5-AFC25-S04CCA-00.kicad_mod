@@ -190,7 +190,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b19973c8-7617-4c72-9f5c-56fefc62b4f4")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad-connectors.3dshapes/CONN-SMD_4P-P2.5-AFC25-S04CCA-00.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad-connectors.3dshapes/CONN-SMD_4P-P2.5-AFC25-S04CCA-00.wrl"
 		(offset
 			(xyz 0 -1.85 -0)
 		)

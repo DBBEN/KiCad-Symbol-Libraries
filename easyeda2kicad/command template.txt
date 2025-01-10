@@ -5,7 +5,8 @@ easyeda2kicad --full --lcsc_id=C411575 --output E:\Dave\Embedded\KiCad-Symbols-R
 easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad
 
 MCU
-easyeda2kicad --full --lcsc_id=C20622217 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu
+(Laptop) easyeda2kicad --full --lcsc_id=C701344 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu --overwrite
+(Work PC) easyeda2kicad --full --lcsc_id=C701344 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mcu --overwrite
 
 INTERFACE
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
@@ -31,4 +32,6 @@ easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\K
 MOTOR DRIVER
 
 (Work PC Path)
-easyeda2kicad --full --lcsc_id=C81582 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
+easyeda2kicad --full --lcsc_id=C38437 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
+
+CAPACITORS
