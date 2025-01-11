@@ -12,7 +12,8 @@ INTERFACE
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
 
 CONNECTORS
-easyeda2kicad --full --lcsc_id=C7509520 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
+(Laptop) easyeda2kicad --full --lcsc_id=C7509520 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
+(Work PC) easyeda2kicad --full --lcsc_id=C2828088 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
 
 WIRELESS
 easyeda2kicad --full --lcsc_id=C2980721 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-wireless
