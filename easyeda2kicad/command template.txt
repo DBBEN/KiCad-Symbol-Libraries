@@ -30,9 +30,20 @@ easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\K
 PROTECTION
 easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
 
+easyeda2kicad --full --lcsc_id=C146234 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
+
 MOTOR DRIVER
 
 (Work PC Path)
 easyeda2kicad --full --lcsc_id=C38437 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
 
 CAPACITORS
+
+
+(Work PC Path)
+easyeda2kicad --full --lcsc_id=C125977 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-capacitors --overwrite
+
+
+RELAYS
+(Work PC Path)
+easyeda2kicad --full --lcsc_id=C38031 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-relays --overwrite
