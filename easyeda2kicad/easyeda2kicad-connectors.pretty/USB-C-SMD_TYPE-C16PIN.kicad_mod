@@ -276,7 +276,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c4c582e3-8244-4355-a1ff-7fa5d6d2f87c")
 	)
-	(model "C:/Users/Sally/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad-connectors.3dshapes/USB-C-SMD_TYPE-C16PIN.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad-connectors.3dshapes/USB-C-SMD_TYPE-C16PIN.wrl"
 		(offset
 			(xyz 0 -2.56 0)
 		)
