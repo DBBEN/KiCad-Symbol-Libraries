@@ -34,8 +34,7 @@ easyeda2kicad --full --lcsc_id=C146234 --output C:\Users\iamda\OneDrive\Document
 
 MOTOR DRIVER
 
-(Work PC Path)
-easyeda2kicad --full --lcsc_id=C38437 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
+(Work PC) easyeda2kicad --full --lcsc_id=C19272815 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
 
 CAPACITORS
 easyeda2kicad --full --lcsc_id=C3445238 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
