@@ -13,7 +13,7 @@ easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiC
 
 CONNECTORS
 (Laptop) easyeda2kicad --full --lcsc_id=C7509520 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
-(Work PC) easyeda2kicad --full --lcsc_id=C5379868 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
+(Work PC) easyeda2kicad --full --lcsc_id=C474881 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
 
 WIRELESS
 easyeda2kicad --full --lcsc_id=C2980721 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-wireless
@@ -27,21 +27,30 @@ easyeda2kicad --full --lcsc_id=C5372847 --output C:\Users\Sally\Documents\KiCad\
 LEDS
 easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds --overwrite
 
+INDUCTOR
+easyeda2kicad --full --lcsc_id=C9907 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-inductor
+
 PROTECTION
 easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
 
-easyeda2kicad --full --lcsc_id=C146234 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
+easyeda2kicad --full --lcsc_id=C19078763 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection
+
+DIODE
+easyeda2kicad --full --lcsc_id=C22452 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-diode
 
 MOTOR DRIVER
 
-(Work PC) easyeda2kicad --full --lcsc_id=C19272815 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
+(Work PC) easyeda2kicad --full --lcsc_id=C22462553 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
 
 CAPACITORS
-easyeda2kicad --full --lcsc_id=C3445238 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver --overwrite
+easyeda2kicad --full --lcsc_id=C8649 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-motordriver
 
 (Work PC Path)
-easyeda2kicad --full --lcsc_id=C3445238 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-capacitors --overwrite
+easyeda2kicad --full --lcsc_id=C90272 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-capacitors
 
+MOSFET
+
+easyeda2kicad --full --lcsc_id=C917091 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mosfet
 
 RELAYS
 (Work PC Path)
