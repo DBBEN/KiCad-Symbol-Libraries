@@ -1,0 +1,179 @@
+(footprint "CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "586d9c07-1d37-4624-abb3-e3ed434f0364")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "8794e6d0-9698-42b9-a5fb-cbf40b5be2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a223de12-9e6d-449e-b307-f062b07cd770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d9a550f-865f-45bc-971e-b697de82c9df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.66 -1.34)
+		(end -2.66 -0.61)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2c18785-22c2-42bb-8148-d6a3e945e265")
+	)
+	(fp_line
+		(start -2.66 1.33)
+		(end -2.66 0.61)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa96ef4b-751a-4b24-93b5-35beb8fd66e1")
+	)
+	(fp_line
+		(start -1.37 2.62)
+		(end -2.66 1.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11f827ef-fa29-4b58-9a64-cf4f9965221a")
+	)
+	(fp_line
+		(start -1.35 -2.65)
+		(end -2.66 -1.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4da0a7-d538-4e9b-9b01-e0e3e2b94bdd")
+	)
+	(fp_line
+		(start 2.65 0.61)
+		(end 2.65 2.62)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "169cf2de-cf01-4b55-9250-557e55910923")
+	)
+	(fp_line
+		(start 2.65 2.62)
+		(end -1.37 2.62)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4eb220f-e936-44b9-99af-0c612ab6e269")
+	)
+	(fp_line
+		(start 2.66 -2.65)
+		(end -1.35 -2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9213a988-99c9-4bc3-b2d8-bf261a5024c4")
+	)
+	(fp_line
+		(start 2.66 -0.61)
+		(end 2.66 -2.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c5be2cb-feb7-4466-b084-48511c44e2dd")
+	)
+	(fp_circle
+		(center -3.15 2.65)
+		(end -3.12 2.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c5a14dce-3538-4e14-ade6-b53971a25b39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "18257488-b4f9-499c-9dd2-1636f2699d4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.4 0)
+		(size 2.7 0.91)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09108c8d-1920-4d5d-854f-79c35f0722d3")
+	)
+	(pad "2" smd rect
+		(at 2.4 0)
+		(size 2.7 0.91)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d512951f-5e9f-4012-9603-f00ee446976b")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad-capacitors.3dshapes/CAP-SMD_BD5.0-L5.3-W5.3-LS6.3-FD.wrl"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
