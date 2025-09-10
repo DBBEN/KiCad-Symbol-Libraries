@@ -1,0 +1,224 @@
+(footprint "LED-SMD-6P_S6-3528RGBTA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.48 0)
+		(layer "F.SilkS")
+		(uuid "db3b75a9-63c9-4c53-9079-aa4559e2ec8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD-6P_S6-3528RGBTA"
+		(at 0 5.48 0)
+		(layer "F.Fab")
+		(uuid "b9f0fac1-57c0-4845-80dd-8dfea4aefa8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bac74b33-3e1a-4f62-b761-8f507688404d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24611af0-f2ba-4d3a-8a8d-0496f81c2861")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 1.09)
+		(end -1.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b92dcef3-4362-4336-bbeb-e6c33c4cf322")
+	)
+	(fp_line
+		(start -1.65 2.15)
+		(end -0.6 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06d41254-937f-41f8-a448-1cc946584c40")
+	)
+	(fp_line
+		(start -1.4 0.93)
+		(end -1.4 -0.94)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23f8dce8-2ee1-4599-bfa1-6e2ec4015034")
+	)
+	(fp_line
+		(start -1.4 0.93)
+		(end -1.4 -0.94)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc97caa9-056a-47e0-9b0d-76a2ab556acc")
+	)
+	(fp_line
+		(start -0.57 -1.75)
+		(end -0.43 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b86fed7-6634-4fde-9114-076c49390cdc")
+	)
+	(fp_line
+		(start -0.43 1.8)
+		(end -0.57 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e99c20e-d4d1-4ad9-913e-04dd5ab2a4d8")
+	)
+	(fp_line
+		(start 0.43 -1.75)
+		(end 0.57 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc0ef433-5328-407d-be05-2c1d0ff5d2d0")
+	)
+	(fp_line
+		(start 0.57 1.8)
+		(end 0.43 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cea0a2e7-c9ca-451b-8a1b-4862b053fcdb")
+	)
+	(fp_line
+		(start 1.4 -0.94)
+		(end 1.4 0.93)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6affb720-f389-4b65-93ee-d961f776b8ea")
+	)
+	(fp_circle
+		(center -1.95 2)
+		(end -1.84 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03b53de3-098b-441d-b78b-9869ff20eb13")
+	)
+	(fp_circle
+		(center -1.4 1.75)
+		(end -1.37 1.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "59565d3f-50ac-4265-9770-2d7c2fdfca95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8a23c977-6037-43b9-a230-9b348ad455a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22c50fc7-e9c4-4aec-8a60-c88aa8d4ed64")
+	)
+	(pad "2" smd rect
+		(at 0 1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e30f3f7-8acf-4f09-8e43-6f0dac96f228")
+	)
+	(pad "3" smd rect
+		(at 1 1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2c4e935-a491-4199-8383-e98fea078d79")
+	)
+	(pad "4" smd rect
+		(at 1 -1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff25c6ef-d631-48a3-ad72-5c22e1b79b4a")
+	)
+	(pad "5" smd rect
+		(at 0 -1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d40dfbd7-94b5-43ca-8191-e52a2eee7303")
+	)
+	(pad "6" smd rect
+		(at -1 -1.48 180)
+		(size 0.55 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba94712d-a45d-4fe9-b30d-cbaa5a6739c3")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad-leds.3dshapes/LED-SMD-6P_S6-3528RGBTA.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

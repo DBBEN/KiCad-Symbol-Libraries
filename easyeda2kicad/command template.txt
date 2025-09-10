@@ -12,8 +12,8 @@ INTERFACE
 easyeda2kicad --full --lcsc_id=C8963 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-interface
 
 CONNECTORS
-(Laptop) easyeda2kicad --full --lcsc_id=C7509520 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors --overwrite
-(Work PC) easyeda2kicad --full --lcsc_id=C474881 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
+(Laptop) easyeda2kicad --full --lcsc_id=C7509520 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
+(Work PC) easyeda2kicad --full --lcsc_id=C5175299 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-connectors
 
 WIRELESS
 easyeda2kicad --full --lcsc_id=C2980721 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-wireless
@@ -25,7 +25,8 @@ DISPLAYS
 easyeda2kicad --full --lcsc_id=C5372847 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-displays --overwrite
 
 LEDS
-easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds --overwrite
+(Laptop) easyeda2kicad --full --lcsc_id=C965555 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds
+(Work PC) easyeda2kicad --full --lcsc_id=C2843672 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds
 
 INDUCTOR
 easyeda2kicad --full --lcsc_id=C9907 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-inductor
