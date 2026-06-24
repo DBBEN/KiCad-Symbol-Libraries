@@ -2379,6 +2379,176 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "36V-5V5A_USB_Step_Down"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at 9.652 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "36V-5V5A USB STEP DOWN"
+			(at 3.048 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "36V-5V5A_USB_Step_Down_1_1"
+			(rectangle
+				(start -3.81 -0.508)
+				(end 11.43 -12.192)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(name "+VDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "USB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "USB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "USB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -10.16 180)
+				(length 2.54)
+				(name "USB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "3S_BMS"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3645,7 +3815,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -5.08 0)
+				(at -13.97 -2.54 0)
 				(length 2.54)
 				(name "DC+"
 					(effects
@@ -3655,6 +3825,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "DC-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3719,7 +3907,7 @@
 			(pin input line
 				(at -13.97 -15.24 0)
 				(length 2.54)
-				(name "DC-"
+				(name "IN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21507,6 +21695,24 @@
 				)
 			)
 			(pin input line
+				(at -11.43 24.13 270)
+				(length 2.54)
+				(name "NVME_M.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -8.89 -13.97 90)
 				(length 2.54)
 				(name "USB-C-3.1"
@@ -21525,25 +21731,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 24.13 270)
-				(length 2.54)
-				(name "NVME_M.2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 1.27 24.13 270)
+				(at 0 24.13 270)
 				(length 2.54)
 				(name "RTC_BATT+"
 					(effects
@@ -27405,6 +27593,135 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SMART_TV"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TV"
+			(at -19.304 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMART TV"
+			(at -4.318 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SMART_TV_0_1"
+			(rectangle
+				(start -18.796 6.604)
+				(end -1.27 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SMART_TV_1_1"
+			(rectangle
+				(start -20.066 7.747)
+				(end 0.254 -13.335)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -22.86 -6.35 0)
+				(length 2.54)
+				(name "POWER_IN_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -8.89 0)
+				(length 2.54)
+				(name "POWER_IN_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -11.43 0)
+				(length 2.54)
+				(name "HDMI_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SSR-D3805HK"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29297,6 +29614,99 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TOUCHPANEL"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 7.62 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB TOUCHPANEL"
+			(at 1.016 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TOUCHPANEL_0_1"
+			(rectangle
+				(start -8.636 9.144)
+				(end 8.89 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TOUCHPANEL_1_1"
+			(rectangle
+				(start -9.906 10.287)
+				(end 10.414 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -12.7 -3.81 0)
+				(length 2.54)
+				(name "USB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -34558,8 +34968,8 @@
 		)
 		(symbol "VMC-MB-V1.05_1_1"
 			(rectangle
-				(start -52.07 83.82)
-				(end 127.762 -50.8)
+				(start -51.562 84.074)
+				(end 128.27 -50.546)
 				(stroke
 					(width 0)
 					(type solid)
@@ -35120,7 +35530,7 @@
 			(pin input line
 				(at -54.61 -8.89 0)
 				(length 2.54)
-				(name "6V"
+				(name "6V(SERVO1)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35138,7 +35548,7 @@
 			(pin input line
 				(at -54.61 -11.43 0)
 				(length 2.54)
-				(name "GND"
+				(name "GND(SERVO1)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35174,7 +35584,7 @@
 			(pin input line
 				(at -54.61 -17.78 0)
 				(length 2.54)
-				(name "6V"
+				(name "6V(SERVO2)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35192,7 +35602,7 @@
 			(pin input line
 				(at -54.61 -20.32 0)
 				(length 2.54)
-				(name "GND"
+				(name "GND(SERVO2)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35228,7 +35638,7 @@
 			(pin input line
 				(at -54.61 -26.67 0)
 				(length 2.54)
-				(name "6V"
+				(name "6V(SERVO3)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35246,7 +35656,7 @@
 			(pin input line
 				(at -54.61 -29.21 0)
 				(length 2.54)
-				(name "GND"
+				(name "GND(SERVO3)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35282,7 +35692,7 @@
 			(pin input line
 				(at -54.61 -35.56 0)
 				(length 2.54)
-				(name "6V"
+				(name "6V(SERVO4)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -35300,7 +35710,7 @@
 			(pin input line
 				(at -54.61 -38.1 0)
 				(length 2.54)
-				(name "GND"
+				(name "GND(SERVO4)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36540,7 +36950,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 57.15 180)
+				(at 130.81 57.15 180)
 				(length 2.54)
 				(name "5V(GPS_5V)"
 					(effects
@@ -36558,7 +36968,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 54.61 180)
+				(at 130.81 54.61 180)
 				(length 2.54)
 				(name "UARTSoft_TX(GPS_RX)"
 					(effects
@@ -36576,7 +36986,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 52.07 180)
+				(at 130.81 52.07 180)
 				(length 2.54)
 				(name "UARTSoft_RX(GPS_TX)"
 					(effects
@@ -36594,7 +37004,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 49.53 180)
+				(at 130.81 49.53 180)
 				(length 2.54)
 				(name "GND(GPS_GND)"
 					(effects
@@ -36612,7 +37022,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 44.45 180)
+				(at 130.81 44.45 180)
 				(length 2.54)
 				(name "5V(POWMTR_5V)"
 					(effects
@@ -36630,7 +37040,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 41.91 180)
+				(at 130.81 41.91 180)
 				(length 2.54)
 				(name "UART1_TX(POWMTR_RX)"
 					(effects
@@ -36648,7 +37058,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 39.37 180)
+				(at 130.81 39.37 180)
 				(length 2.54)
 				(name "UART1_RX(POWMTR_TX)"
 					(effects
@@ -36666,7 +37076,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 36.83 180)
+				(at 130.81 36.83 180)
 				(length 2.54)
 				(name "GND(POWMTR_GND)"
 					(effects
@@ -36684,7 +37094,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 27.94 180)
+				(at 130.81 27.94 180)
 				(length 2.54)
 				(name "USB-C"
 					(effects
@@ -36702,7 +37112,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 20.32 180)
+				(at 130.81 20.32 180)
 				(length 2.54)
 				(name "5V(US1_5V)"
 					(effects
@@ -36720,9 +37130,9 @@
 				)
 			)
 			(pin input line
-				(at 130.302 17.78 180)
+				(at 130.81 17.78 180)
 				(length 2.54)
-				(name "MUX_TRIG1(US_TRIG)"
+				(name "US_TRIG(US1_TRIG)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36738,9 +37148,9 @@
 				)
 			)
 			(pin input line
-				(at 130.302 15.24 180)
+				(at 130.81 15.24 180)
 				(length 2.54)
-				(name "US_ECHO(US_ECHO)"
+				(name "US_ECHO(US1_ECHO)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36756,9 +37166,9 @@
 				)
 			)
 			(pin input line
-				(at 130.302 12.7 180)
+				(at 130.81 12.7 180)
 				(length 2.54)
-				(name "GND(US_GND)"
+				(name "GND(US1_GND)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -36774,7 +37184,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 7.62 180)
+				(at 130.81 7.62 180)
 				(length 2.54)
 				(name "5V(DHT_5V)"
 					(effects
@@ -36792,7 +37202,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 5.08 180)
+				(at 130.81 5.08 180)
 				(length 2.54)
 				(name "DHT_OUT(DHT_SIG)"
 					(effects
@@ -36810,7 +37220,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 2.54 180)
+				(at 130.81 2.54 180)
 				(length 2.54)
 				(name "GND(DHT_GND)"
 					(effects
@@ -36828,7 +37238,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 -2.54 180)
+				(at 130.81 -2.54 180)
 				(length 2.54)
 				(name "5V(PIR_5V)"
 					(effects
@@ -36846,7 +37256,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 -5.08 180)
+				(at 130.81 -5.08 180)
 				(length 2.54)
 				(name "PIR_OUT(PIR_SIG)"
 					(effects
@@ -36864,7 +37274,7 @@
 				)
 			)
 			(pin input line
-				(at 130.302 -7.62 180)
+				(at 130.81 -7.62 180)
 				(length 2.54)
 				(name "GND(PIR_GND)"
 					(effects
@@ -38565,6 +38975,180 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WiFi_CCTV_TPLink"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -7.62 10.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WiFi_CCTV_TPLink"
+			(at 0 -8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -11.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -11.43 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WiFi_CCTV_TPLink_0_1"
+			(rectangle
+				(start -10.16 8.89)
+				(end 10.16 -6.35)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.5399 4.4451)
+				(mid 0.7381 3.9131)
+				(end 1.2701 0.6351)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.2699 1.9051)
+				(radius 0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2699 1.2701) (xy -1.2699 -1.9049)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.9049 3.8101)
+				(mid 0.1684 3.3434)
+				(end 0.6351 1.2701)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.2699 3.1751)
+				(mid -0.359 2.816)
+				(end 0.0001 1.9051)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 7.62)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.715 1.27)
+				(radius 1.27)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.715 1.27)
+				(radius 2.54)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "WiFi_CCTV_TPLink_1_1"
+			(pin input line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "POWER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
