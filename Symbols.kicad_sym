@@ -9787,7 +9787,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TI"
-			(at -10.668 -20.574 0)
+			(at 29.718 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +9795,7 @@
 			)
 		)
 		(property "Value" "DP-Q05"
-			(at -6.858 7.62 0)
+			(at -5.588 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9831,8 +9831,8 @@
 		)
 		(symbol "DP-Q05_1_1"
 			(rectangle
-				(start -11.43 6.096)
-				(end 20.828 -19.05)
+				(start -10.16 7.366)
+				(end 30.48 -24.384)
 				(stroke
 					(width 0)
 					(type solid)
@@ -9842,8 +9842,8 @@
 				)
 			)
 			(rectangle
-				(start 2.032 3.048)
-				(end 14.224 -1.016)
+				(start -0.762 4.572)
+				(end 14.224 -1.524)
 				(stroke
 					(width 0)
 					(type default)
@@ -9853,8 +9853,8 @@
 				)
 			)
 			(rectangle
-				(start 4.572 -2.794)
-				(end 12.446 -6.35)
+				(start 3.048 -6.096)
+				(end 10.922 -12.192)
 				(stroke
 					(width 0)
 					(type default)
@@ -9864,7 +9864,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 3.81 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "AC_L"
 					(effects
@@ -9882,7 +9882,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 1.27 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "AC_N"
 					(effects
@@ -9900,7 +9900,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -1.27 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "AC_GND"
 					(effects
@@ -9918,7 +9918,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -21.59 90)
+				(at -1.27 -26.67 90)
 				(length 2.54)
 				(name "BTN_+_A"
 					(effects
@@ -9936,7 +9936,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -21.59 90)
+				(at 1.27 -26.67 90)
 				(length 2.54)
 				(name "BTN_+_B"
 					(effects
@@ -9954,7 +9954,7 @@
 				)
 			)
 			(pin input line
-				(at 2.54 -21.59 90)
+				(at 5.08 -26.67 90)
 				(length 2.54)
 				(name "BTN_-_A"
 					(effects
@@ -9972,7 +9972,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 -21.59 90)
+				(at 7.62 -26.67 90)
 				(length 2.54)
 				(name "BTN_-_B"
 					(effects
@@ -9990,7 +9990,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -21.59 90)
+				(at 11.43 -26.67 90)
 				(length 2.54)
 				(name "BTN_ON_A"
 					(effects
@@ -10008,7 +10008,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -21.59 90)
+				(at 13.97 -26.67 90)
 				(length 2.54)
 				(name "BTN_ON_B"
 					(effects
@@ -10026,9 +10026,99 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -21.59 90)
+				(at 33.02 3.81 180)
 				(length 2.54)
-				(name "BUZZER_SIG"
+				(name "7SEGDIS1_STB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 1.27 180)
+				(length 2.54)
+				(name "7SEGDIS1_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -1.27 180)
+				(length 2.54)
+				(name "7SEGDIS1_DIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -6.35 180)
+				(length 2.54)
+				(name "7SEGDIS2_STB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -8.89 180)
+				(length 2.54)
+				(name "7SEGDIS2_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -11.43 180)
+				(length 2.54)
+				(name "7SEGDIS2_DIO"
 					(effects
 						(font
 							(size 1.27 1.27)
