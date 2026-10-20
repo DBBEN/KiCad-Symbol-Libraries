@@ -347,9 +347,9 @@
 		(uuid "df664316-6874-4dad-80e1-81da077c9435")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/iamda/OneDrive/Documents/KiCad/KiCad-Symbol-Libraries/easyeda2kicad/easyeda2kicad-switches.3dshapes/SW-SMD_L4.6-W3.5-H1.8-P3.4.wrl"
+	(model "${EASYEDA2KICAD}/easyeda2kicad-switches.3dshapes/SW-SMD_L4.6-W3.5-H1.8-P3.4.step"
 		(offset
-			(xyz 0 1.5 0)
+			(xyz 0 1 0)
 		)
 		(scale
 			(xyz 1 1 1)
