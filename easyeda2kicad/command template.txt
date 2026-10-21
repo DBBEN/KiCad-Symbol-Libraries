@@ -32,7 +32,7 @@ LEDS
 (Work PC) easyeda2kicad --full --lcsc_id=C2843672 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-leds
 
 INDUCTOR
-easyeda2kicad --full --lcsc_id=C9907 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-inductor
+easyeda2kicad --full --lcsc_id=C305224 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-inductor
 
 PROTECTION
 easyeda2kicad --full --lcsc_id=C883154 --output C:\Users\Sally\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-protection --overwrite
@@ -55,7 +55,7 @@ easyeda2kicad --full --lcsc_id=C90272 --output C:\Users\iamda\OneDrive\Documents
 
 MOSFET
 
-easyeda2kicad --full --lcsc_id=C353066 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mosfet
+easyeda2kicad --full --lcsc_id=C502973 --output C:\Users\iamda\OneDrive\Documents\KiCad\KiCad-Symbol-Libraries\easyeda2kicad\easyeda2kicad-mosfet
 
 RELAYS
 (Work PC Path)
