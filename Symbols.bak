@@ -19213,10 +19213,24 @@
 				)
 			)
 		)
+		(symbol "IP2366-I2C_0_1"
+			(polyline
+				(pts
+					(xy 25.4 38.1) (xy 25.4 40.894)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "IP2366-I2C_1_1"
 			(rectangle
 				(start -30.48 29.21)
-				(end 30.48 -27.94)
+				(end 40.64 -27.94)
 				(stroke
 					(width 0)
 					(type solid)
@@ -19226,7 +19240,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -8.89 -30.48 90)
+				(at 2.54 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "TEST2"
@@ -19245,7 +19259,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -11.43 -30.48 90)
+				(at 0 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "TEST3"
@@ -19264,7 +19278,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -13.97 -30.48 90)
+				(at -2.54 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "TEST4"
@@ -19283,7 +19297,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -16.51 -30.48 90)
+				(at -5.08 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "TEST5"
@@ -19446,7 +19460,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 31.75 270)
+				(at 0 31.75 270)
 				(length 2.54)
 				(name "BST1"
 					(effects
@@ -19464,7 +19478,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 31.75 270)
+				(at -3.81 31.75 270)
 				(length 2.54)
 				(name "LX1"
 					(effects
@@ -19500,7 +19514,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 31.75 270)
+				(at 25.4 31.75 270)
 				(length 2.54)
 				(name "LG2"
 					(effects
@@ -19518,7 +19532,7 @@
 				)
 			)
 			(pin input line
-				(at 5.08 31.75 270)
+				(at 13.97 31.75 270)
 				(length 2.54)
 				(name "LX2"
 					(effects
@@ -19536,7 +19550,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 31.75 270)
+				(at 10.16 31.75 270)
 				(length 2.54)
 				(name "BST2"
 					(effects
@@ -19554,7 +19568,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 31.75 270)
+				(at 29.21 31.75 270)
 				(length 2.54)
 				(name "HG2"
 					(effects
@@ -19572,7 +19586,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 31.75 270)
+				(at 33.02 31.75 270)
 				(length 2.54)
 				(name "PCON"
 					(effects
@@ -19590,7 +19604,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 21.59 180)
+				(at 43.18 21.59 180)
 				(length 2.54)
 				(name "CSN2"
 					(effects
@@ -19608,7 +19622,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 17.78 180)
+				(at 43.18 17.78 180)
 				(length 2.54)
 				(name "CSP2"
 					(effects
@@ -19626,7 +19640,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 13.97 180)
+				(at 43.18 13.97 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -19644,7 +19658,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 0 180)
+				(at 43.18 0 180)
 				(length 2.54)
 				(name "CC_BDO"
 					(effects
@@ -19662,7 +19676,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 10.16 180)
+				(at 43.18 10.16 180)
 				(length 2.54)
 				(name "VCC5V"
 					(effects
@@ -19680,7 +19694,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -21.59 180)
+				(at 43.18 -21.59 180)
 				(length 2.54)
 				(name "AGND"
 					(effects
@@ -19698,7 +19712,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -3.81 180)
+				(at 43.18 -3.81 180)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -19716,7 +19730,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 6.35 180)
+				(at 43.18 6.35 180)
 				(length 2.54)
 				(name "VCCIO"
 					(effects
@@ -19734,7 +19748,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -7.62 180)
+				(at 43.18 -7.62 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -19752,7 +19766,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -11.43 180)
+				(at 43.18 -11.43 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -19788,7 +19802,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -15.24 180)
+				(at 43.18 -15.24 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -19806,7 +19820,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -30.48 90)
+				(at 17.78 -30.48 90)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -19824,7 +19838,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -30.48 90)
+				(at 15.24 -30.48 90)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -19842,7 +19856,7 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -30.48 90)
+				(at 12.7 -30.48 90)
 				(length 2.54)
 				(name "DPC"
 					(effects
@@ -19860,7 +19874,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 -30.48 90)
+				(at 10.16 -30.48 90)
 				(length 2.54)
 				(name "DMC"
 					(effects
@@ -19878,7 +19892,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -30.48 90)
+				(at 7.62 -30.48 90)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -19932,7 +19946,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 -30.48 90)
+				(at 5.08 -30.48 90)
 				(length 2.54)
 				(hide yes)
 				(name "TEST1"
@@ -19951,7 +19965,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -21.59 180)
+				(at 43.18 -21.59 180)
 				(length 2.54)
 				(hide yes)
 				(name "EPAD"
